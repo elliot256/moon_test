@@ -1,0 +1,90 @@
+
+<p id="hello">hello</p>
+ <button onclick="test()" class="test">Subscribe</button>
+
+<script> function test(){
+    document.getElementById("hello").innerHTML = "bye";
+}
+function test2(){
+    document.getElementById("hello").innerHTML = "hello";
+
+}
+</script>
+
+
+<style>
+.test {
+    background-color: rgb(220, 0, 0);
+    color: #ffffff;
+    border: none;
+    height: 30;
+    width: 100; 
+    border-radius: 2.3px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.test:hover{
+    opacity: 0.8;
+}
+
+.test:active{
+    opacity: 0.5;
+}
+
+</style>
+
+<button onclick="test2()" class="test-2">Join</button>
+
+<style>
+  .test-2{
+    color: #1f39af;
+    background-color: #ffffff;
+    border-color: #031e96;
+    border-style: solid;
+    cursor: pointer;
+    border-width: 1px;
+    height: 30px;
+    width: 60px;
+    margin: 10px;
+    transition: background-color 1s,
+    color 1s;
+
+
+}
+
+
+.test-2:hover{
+    background-color: #031e96;
+    color: #ffffff;
+
+}
+
+.test-2:active{
+    opacity: 0.5;
+
+}
+
+
+</style>
+
+
+
+<button class="test-3">Tweet</button>
+
+<style>
+.test-3{
+    color: #ffffff;
+    background-color: #183bd6;
+    border-radius: 50px;
+    width: 75;
+    height: 30;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+    transition: box-shadow 0.5s;
+}
+.test-3:hover{
+    box-shadow: 0px 5px 15px #11101063;   
+}
+</style>
